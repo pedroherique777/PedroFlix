@@ -1,0 +1,81 @@
+body {
+    color: rgb(255, 255, 255); /* Define a cor do texto como branco */
+    background: rgb(255, 0, 0); /* Define a cor de fundo como vermelho */
+    margin: 0; /* Remove a margem padrão em torno da página */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para Arial, com fallback para sans-serif */
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 4, 233); /* Adiciona uma borda inferior azul de 2px ao header */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px ao header */
+    font-size: 32px; /* Define o tamanho da fonte do header */
+    color: rgb(0, 43, 99); /* Define a cor do texto no header como um azul escuro */
+    font-family: Impact, sans-serif; /* Define a fonte para Matemasie, com fallback para sans-serif */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+}
+
+h1 {
+    color: red; /* Define a cor do título h1 como vermelho */
+    font-family: "Bungee Tint", sans-serif; /* Define a fonte do título para Bungee Tint, com fallback para sans-serif */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    font-size: x-large; /* Define o tamanho da fonte como extra grande */
+    margin-bottom: 5%; /* Adiciona uma margem inferior de 5% ao título h1 */
+    overflow: visible; /* Garante que o texto não seja cortado */
+    padding: 0 10px; /* Adiciona um espaçamento interno de 10px à esquerda e à direita */
+    word-wrap: break-word; /* Garante que as palavras sejam quebradas corretamente para evitar corte */
+}
+
+.chamada_txt {
+    background: rgb(0, 0, 0); /* Define a cor de fundo da seção como preto */
+    padding-bottom: 80px; /* Adiciona um espaçamento interno inferior de 80px */
+    padding-top: 80px; /* Adiciona um espaçamento interno superior de 80px */
+    display: flex; /* Usa flexbox para organizar o layout dos elementos filhos */
+    justify-content: center; /* Centraliza os itens filhos horizontalmente */
+}
+
+.chamada {
+    margin-right: 5%; /* Adiciona uma margem direita de 5% à div chamada */
+}
+
+.catvideos {
+    display: flex; /* Usa flexbox para organizar as imagens em uma linha */
+    overflow-x: auto; /* Permite rolagem horizontal se o conteúdo exceder a largura do contêiner */
+    gap: 10px; /* Adiciona um espaçamento de 10px entre os itens filhos */
+}
+
+.mais_sobre { 
+    padding-top: 20px; /* Adiciona um espaçamento interno superior de 20px */
+    padding-left: 20px; /* Adiciona um espaçamento interno à esquerda de 20px */
+    padding-right: 20px; /* Adiciona um espaçamento interno à direita de 20px */
+    margin-bottom: 100px; /*Adicona uma magem inferior de 100px */
+
+}
+
+.catvideos img {
+    opacity: 0.5;  /* Define a opacidade das imagens para 50% */
+    height: 200px; /* Define a altura das imagens como 200px */
+    transition: opacity 0.3s ease, border 0.3s ease; /* Adiciona uma transição suave para opacidade e borda ao passar o mouse */
+}
+
+.catvideos img:hover {
+    opacity: 1.0; /* Aumenta a opacidade para 100% quando o mouse passa sobre a imagem */
+    border: 4px solid green; /* Adiciona uma borda verde de 4px ao passar o mouse sobre a imagem */
+}
+
+.mais_sobre h2 {
+    color: rgb(0, 43, 99); /* Define a cor do texto h2 como azul escuro */
+    font-family: Impact, sans-serif; /* Define a fonte para Impact, com fallback para sans-serif */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    padding-bottom: 3px; /* Adiciona um espaçamento interno inferior de 3px */
+}
+
+.texto-trailer {
+    overflow: visible; /* Garante que o texto não seja cortado */
+    padding: 0 10px; /* Adiciona um espaçamento interno de 10px à esquerda e à direita */
+    word-wrap: break-word; /* Garante que as palavras sejam quebradas corretamente para evitar corte */
+    margin-left: 2%; /* Adiciona uma margem esquerda de 2% */
+    max-width: 600px; /* Limita a largura máxima do texto para melhorar a legibilidade */
+}
